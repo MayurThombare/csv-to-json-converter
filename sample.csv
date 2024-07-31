@@ -1,0 +1,6 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,additionalInfo.favoriteColor,additionalInfo.hobby
+John,Doe,25,123 Main St,Unit 4,Anytown,CA,Blue,Reading
+Jane,Smith,35,456 Oak St,,Somecity,TX,Green,Cycling
+Jim,Brown,45,789 Pine St,Apt 12,Anycity,FL,Red,Hiking
+Jack,White,15,321 Maple St,,Othercity,NY,Yellow,Swimming
+Jill,Black,65,654 Elm St,,Anothercity,IL,Black,Gardening
