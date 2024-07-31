@@ -33,7 +33,7 @@ app.get('/convert', async (req, res) => {
 
   await calculateAgeDistribution();
 
-  res.send('Data inserted and age distribution calculated successfully');
+  res.send('Data inserted and age distribution calculated successfully please check your console');
 });
 
 app.listen(port, () => {
