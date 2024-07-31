@@ -29,11 +29,16 @@ app.get('/convert', async (req, res) => {
     }
 
     await insertUser(user);
+    console.log(user);
   }
 
   await calculateAgeDistribution();
 
-  res.send('Data inserted and age distribution calculated successfully please check your console for age distribution');
+  // Send JSON data in the response
+  res.json({
+    message: 'Data inserted and age distribution calculated successfully.',
+    data: jsonData,
+  });
 });
 
 app.listen(port, () => {
